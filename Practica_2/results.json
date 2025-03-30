@@ -1,0 +1,17 @@
+{
+  "basic": {
+    "connect": 59,
+    "insert": 191,
+    "total": 284
+  },
+  "promise": {
+    "connect": 7,
+    "insert": 53,
+    "total": 80
+  },
+  "pool": {
+    "connect": 1,
+    "insert": 50,
+    "total": 74
+  }
+}

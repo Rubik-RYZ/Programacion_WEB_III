@@ -1,0 +1,12 @@
+{
+  "name": "mysql2-performance-test",
+  "version": "1.0.0",
+  "description": "Comparación de rendimiento de conexiones a MySQL con mysql2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.0"
+  }
+}
