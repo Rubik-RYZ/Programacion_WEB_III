@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Header + Content + Sidebar + Footer</title>
+  <style>
+    body {
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      grid-template-rows: 100px 1fr 100px;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      grid-column: 1 / span 2;
+    }
+    .sidebar {
+      background: #f4f4f4;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      background: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      grid-column: 1 / span 2;
+    }
+  </style>
+</head>
+<body>
+  <header>Encabezado</header>
+  <div class="sidebar">Barra Lateral</div>
+  <main>Contenido principal</main>
+  <footer>Pie de página</footer>
+</body>
+</html>

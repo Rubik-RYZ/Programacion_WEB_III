@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout de Tres Columnas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: grid;
+      grid-template-columns: 1fr 2fr 1fr;
+      height: 100vh;
+    }
+    .left, .right {
+      background: #f0f0f0;
+      padding: 20px;
+    }
+    .main {
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <aside class="left">Izquierda</aside>
+  <main class="main">Centro</main>
+  <aside class="right">Derecha</aside>
+</body>
+</html>

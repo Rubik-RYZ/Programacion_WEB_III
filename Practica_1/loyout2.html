@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout de Dos Columnas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      height: 100vh;
+    }
+    .main {
+      padding: 20px;
+    }
+    .sidebar {
+      background: #f0f0f0;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <main class="main">Contenido principal</main>
+  <aside class="sidebar">Barra lateral</aside>
+</body>
+</html>

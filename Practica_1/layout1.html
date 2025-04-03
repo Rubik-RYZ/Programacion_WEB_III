@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Layout de una Columna</title>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      font-family: sans-serif;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      min-height: 100vh;
+    }
+    .container {
+      padding: 20px;
+      display: grid;
+      place-content: center;
+    }
+    header, footer {
+      background: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+  <header>Encabezado</header>
+  <main class="container">Contenido principal</main>
+  <footer>
+    Pie de página
+  </footer>
+</body>
+</html>
