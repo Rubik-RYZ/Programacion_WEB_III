@@ -1,0 +1,51 @@
+body {
+  background-color: #121212;
+  color: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #f8f9fa;
+  
+}
+
+.btn-group {
+  display: flex;
+  gap: 5px;
+}
+
+.modal-content {
+  background-color: #2d2d2d;
+  color: #f8f9fa;
+}
+
+.modal-header,
+.modal-footer {
+  border-color: #444;
+}
+
+.form-control {
+  background-color: #333;
+  color: #f8f9fa;
+  border-color: #444;
+}
+
+.form-control:focus {
+  background-color: #444;
+  color: #f8f9fa;
+}
+
+.alert {
+  background-color: #1e3a5f;
+  color: #f8f9fa;
+  border-color: #2a4d7d;
+}
+
+pre {
+  color: #f8f9fa;
+}
